@@ -1,9 +1,32 @@
 /*
  Theme Name:   CS Habitat
  Theme URI:    
- Description:  Thème enfant du thème construction-light pour un projet professionnel
+ Description:  Thème enfant adapté du thème construction-light pour un projet professionnel
  Author:       Adrien
  Author URI:   https://github.com/AdrienSoriano/
  Template:     construction-light
  Version:      0.1.0
 */
+
+.elementor-element-f95a3f3{
+    width: 69vw;
+    margin-left: 240px!important;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+.gallery div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.gallery img{
+    height: 200px;
+    width: 300px;
+}
